@@ -1,0 +1,34 @@
+{
+    "name": "sickly-sweet",
+    "displayName": "Sickly Sweet",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "kall",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "macOS Smyck",
+                "uiTheme": "vs",
+                "path": "./themes/macOS Smyck-color-theme.json"
+            },
+            {
+                "label": "macOS Soft Era",
+                "uiTheme": "vs",
+                "path": "./themes/macOS Soft Era-color-theme.json"
+            }
+        ],
+		"iconThemes": [
+			{
+				"id": "macos-chocolat",
+				"label": "stolen chocolat icon theme",
+				"path": "./icon-theme/chocolat-icons.json"
+			}
+		]
+    }
+}

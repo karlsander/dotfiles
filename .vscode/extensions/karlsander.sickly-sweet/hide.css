@@ -1,0 +1,35 @@
+.editor div.title {
+  display: none !important;
+}
+
+.title.active {
+  display: none !important;
+}
+
+
+canvas.decorationsOverviewRuler {
+  display: none !important;
+}
+
+.composite.title > .title-label {
+  display: none !important;
+}
+
+.composite.title, .composite.title > .title-actions {
+  height: auto !important;
+}
+
+.panel-header .actions {
+  display: none !important;
+}
+
+.sidebar > .content > .composite.viewlet {
+  padding-top: 3px !important;
+}
+.editor-container {
+  height: 100% !important;
+}
+
+.editor-scrollable {
+  padding-top: 3px !important;
+}

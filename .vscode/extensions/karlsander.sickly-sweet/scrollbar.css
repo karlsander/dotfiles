@@ -1,0 +1,23 @@
+.scrollbar > .slider {
+  border-radius: 4px;
+}
+
+.scrollbar.vertical > .slider {
+  width: 7px !important;
+  margin-left: 1px !important;
+  transform: scaleY(0.97);
+}
+
+.editor-scrollable > .scrollbar.vertical > .slider {
+  margin-left: 4px !important;
+}
+
+.scrollbar.horizontal > .slider {
+  height: 7px !important;
+  margin-top: 1px !important;
+  transform: scaleX(0.97);
+}
+
+.scroll-decoration {
+  box-shadow: none !important;
+}

@@ -1,0 +1,10 @@
+.monaco-workbench,
+.monaco-workbench > .sidebar .panel-header,
+body,
+html {
+  background: transparent !important;
+}
+
+.monaco-workbench > .sidebar {
+  background: #ffffff55 !important;
+}

@@ -1,0 +1,54 @@
+/* hide overview ruler */
+
+canvas.decorationsOverviewRuler {
+  display: none !important;
+}
+
+/* quick open and search fields */
+
+.monaco-quick-open-widget {
+  box-shadow: 0px 20px 120px rgba(0, 0, 0, 0.4) !important;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+.monaco-inputbox,
+.monaco-inputbox * {
+  border-radius: 4px !important;
+  box-shadow: 0px 0px 20px rgba(150, 150, 150, 0.03) !important;
+}
+
+.sidebar .monaco-inputbox,
+.sidebar .monaco-inputbox * {
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+
+.monaco-quick-open-widget .monaco-inputbox,
+.monaco-quick-open-widget .monaco-inputbox * {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.monaco-inputbox {
+  border: none !important;
+}
+
+.monaco-editor-hover {
+  padding: 4px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.4) !important;
+}
+
+.monaco-editor .suggest-widget {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) !important;
+}
+/*
+.activitybar,
+.activitybar .content {
+  width: 100px !important;
+}
+
+.monaco-split-view2 > .splwidit-view-container > * {
+  min-width: 100px !important;
+}
+*/
