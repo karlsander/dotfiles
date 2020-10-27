@@ -1,0 +1,1 @@
+cp -r karlsander.sickly-sweet ~/.vscode-remote/extensions
