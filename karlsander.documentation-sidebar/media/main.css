@@ -1,0 +1,155 @@
+body {
+  word-wrap: break-word;
+  margin: 1em 0;
+  padding: 0;
+  background-color: var(--vscode-panel-background);
+  font-size: 12px;
+  line-height: 17px;
+}
+
+pre code {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: normal;
+}
+
+#main > * {
+  padding: 0 20px;
+}
+
+.no-content {
+  font-style: italic;
+}
+
+#main > hr {
+  display: block;
+  border: none;
+  border-color: var(--vscode-editor-foreground);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  opacity: 0.5;
+  margin: 0px 20px;
+}
+
+code {
+  color: inherit;
+  background: var(--vscode-editor-background);
+  font-family: var(--vscode-editor-font-family);
+  border-radius: 4px;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+  margin: 8px;
+}
+
+.hljs {
+  background: var(--vscode-editor-background);
+  color: var(--vscode-editor-foreground);
+}
+
+.hljs-keyword,
+.hljs-literal,
+.hljs-symbol,
+.hljs-name {
+  color: var(--vscode-terminal-ansiBlue);
+}
+.hljs-link {
+  color: var(--vscode-terminal-ansiBrightBlue);
+  text-decoration: underline;
+}
+
+.hljs-built_in,
+.hljs-type {
+  color: var(--vscode-terminal-ansiCyan);
+}
+
+.hljs-number,
+.hljs-class {
+  color: var(--vscode-terminal-ansiGreen);
+}
+
+.hljs-string,
+.hljs-meta .hljs-string {
+  color: var(--vscode-terminal-ansiRed);
+}
+
+.hljs-regexp,
+.hljs-template-tag {
+  color: var(--vscode-terminal-ansiBrightRed);
+}
+
+.hljs-subst,
+.hljs-function,
+.hljs-title,
+.hljs-params,
+.hljs-formula {
+  color: var(--vscode-editor-foreground);
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: var(--vscode-terminal-ansiGreen);
+  font-style: italic;
+}
+
+.hljs-doctag {
+  color: var(--vscode-terminal-ansiBrightGreen);
+}
+
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-tag {
+  color: var(--vscode-terminal-ansiBrightWhite);
+}
+
+.hljs-variable,
+.hljs-template-variable {
+  color: var(--vscode-terminal-ansiMagenta);
+}
+
+.hljs-attr,
+.hljs-attribute {
+  color: var(--vscode-terminal-ansiBlue);
+}
+
+.hljs-section {
+  color: var(--vscode-terminal-ansiYellow);
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+/*.hljs-code {
+  font-family:'Monospace';
+}*/
+
+.hljs-bullet,
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #d7ba7d;
+  color: var(--vscode-terminal-ansiBrightYellow);
+}
+
+.hljs-addition {
+  background-color: #144212;
+  color: var(--vscode-terminal-ansiGreen);
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-deletion {
+  background-color: #600;
+  color: var(--vscode-terminal-ansiRed);
+  display: inline-block;
+  width: 100%;
+}

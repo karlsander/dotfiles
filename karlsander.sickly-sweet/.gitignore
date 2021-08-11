@@ -1,0 +1,4 @@
+node_modules
+.vsix
+*.icns.png
+.DS_Store

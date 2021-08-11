@@ -1,0 +1,65 @@
+{
+  "name": "scratch",
+  "displayName": "Scratch",
+  "description": "",
+  "version": "1.0.0",
+  "publisher": "karlsander",
+  "engines": {
+    "vscode": "^1.57.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:scratch.dummy"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "menus": {
+      "editor/title": [
+        {
+          "command": "scratch.dummy",
+          "group": "navigation",
+          "when": "false"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "scratch.dummy",
+        "title": "Toggle Documentation",
+        "icon": "$(library)"
+      }
+    ],
+    "configuration": {
+      "title": "Scratch Extension",
+      "properties": {
+        "scratch.actionWhileRunning": {
+          "type": "string",
+          "default": "restart",
+          "enum": [
+            "restart",
+            "stop"
+          ],
+          "description": "Action to show while debugging is active."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.57.0",
+    "@types/glob": "^7.1.3",
+    "@types/node": "14.x",
+    "glob": "^7.1.7",
+    "typescript": "^4.3.2",
+    "ts-loader": "^9.2.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}

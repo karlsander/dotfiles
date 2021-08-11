@@ -1,34 +1,33 @@
 {
-    "name": "sickly-sweet",
-    "displayName": "Sickly Sweet",
-    "description": "",
-    "version": "0.0.1",
-    "publisher": "kall",
-    "engines": {
-        "vscode": "^1.18.0"
-    },
-    "categories": [
-        "Themes"
+  "name": "sickly-sweet",
+  "displayName": "Sickly Sweet",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "karlsander",
+  "engines": {
+    "vscode": "^1.18.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "url": "https://github.com/karlsander/sickly-sweet",
+    "type": "git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sickly Sweet: Smyck",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sickly-sweet_smyck.json"
+      }
     ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "macOS Smyck",
-                "uiTheme": "vs",
-                "path": "./themes/macOS Smyck-color-theme.json"
-            },
-            {
-                "label": "macOS Soft Era",
-                "uiTheme": "vs",
-                "path": "./themes/macOS Soft Era-color-theme.json"
-            }
-        ],
-		"iconThemes": [
-			{
-				"id": "macos-chocolat",
-				"label": "stolen chocolat icon theme",
-				"path": "./icon-theme/chocolat-icons.json"
-			}
-		]
-    }
+    "iconThemes": [
+      {
+        "id": "macos-chocolat",
+        "label": "stolen chocolat icon theme",
+        "path": "./icon-theme/chocolat-icons.json"
+      }
+    ]
+  }
 }
